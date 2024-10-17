@@ -1,0 +1,55 @@
+.progress-bar-container {
+  width: 16rem;
+  height: 16rem;
+  margin-bottom: 2rem;
+}
+
+.percentage-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footprints-icon {
+  color: #3b82f6;
+}
+
+.flame-icon {
+  color: #f97316;
+}
+
+.map-icon {
+  color: #22c55e;
+}
+
+.stat-value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.stat-label {
+  font-size: 1.6rem;
+  color: #6b7280;
+  font-weight: bold;
+}

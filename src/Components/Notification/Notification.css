@@ -1,0 +1,97 @@
+.dialog {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 425px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dialog.open {
+  display: block;
+}
+
+.dialog-content {
+  padding: 20px;
+}
+
+.dialog-header {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+}
+
+.dialog-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #dc2626;
+}
+
+.alert-icon {
+  font-size: 2rem;
+}
+
+.dialog-description {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.dialog-body {
+  padding: 20px 0;
+}
+
+.timestamp {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.check-message {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.dialog-footer {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  padding-top: 15px;
+  border-top: 1px solid #eaeaea;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button.destructive {
+  background-color: #dc2626;
+  color: white;
+}
+
+.button.destructive:hover {
+  background-color: #b91c1c;
+}
+
+.button.outline {
+  background-color: transparent;
+  border: 2px solid #d1d5db;
+  color: #374151;
+}
+
+.button.outline:hover {
+  background-color: #f3f4f6;
+}
